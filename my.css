@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    @import url(index.css);
+    @import url(add.css);
+    @import url(view.css);
+}
+
+@media (max-width: 480px) {
+    /* 모바일 화면에 대한 스타일 */
+}
