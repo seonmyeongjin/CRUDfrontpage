@@ -1,8 +1,9 @@
 @import url(index.css);
 
+
 .bt_wrap{
     position: absolute;
-    bottom:50%;
+    bottom:20%;
     left:45%;
     text-align: center;
 }
@@ -29,6 +30,20 @@
 .bt_wrap a#delete:hover{
     background-color: rgb(90, 163, 90);
     color: white
+}
+
+.board_view{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    width : 60%;
+    position: absolute;
+    top: 30%;
+    left : 20%;
+    padding: 10px;
+}
+
+.board_view p{
+    margin:10px;
 }
 
 

@@ -15,7 +15,13 @@ caption{
 a{
     text-decoration: none;
     color: inherit;
+    display: inline;
 }
+
+a:hover{
+    text-decoration: none;
+}
+
 .board_wrap{
     width:800px;
     margin:100px auto;
@@ -77,6 +83,15 @@ a{
     text-decoration: underline;
 }
 
+.board_list_wrap .edit{
+    width : 25px;
+    height: 25px;
+}
+.board_list_wrap #delete{
+    width : 25px;
+    height: 25px;
+}
+
 .board_list_wrap .paging{
     text-align: center;
     margin-top: 20px;
@@ -85,7 +100,6 @@ a{
 
 .board_list_wrap .paging a{
     display: inline-block;
-    padding: 5px 10px;
     font-size: 12px;
 }
 
@@ -93,23 +107,49 @@ a{
     margin-left: 0;
 }
 
-.board_list_wrap .paging a.left_bt{
+.board_list_wrap .paging .first_bt{
     border: 1px solid #eee;
     background: #eee;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    width: 28px;
+    height: 27.5px;
+
 }
 
-.board_list_wrap .paging a.right_bt{
+.board_list_wrap .paging .left_bt{
+    border: 1px solid #eee;
+    background: #eee;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 28px;
+    height: 27.5px;
+}
+
+.board_list_wrap .paging .right_bt{
     border: 1px solid #eee;
     background: #eee;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    width: 28px;
+    height: 27.5px;
+}
+
+.board_list_wrap .paging .last_bt{
+    border: 1px solid #eee;
+    background: #eee;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 28px;
+    height: 27.5px;
 }
 
 .board_list_wrap .paging a.num{
-    border: 1px solid #000;
+    padding: 5px 10px;
+    border: 0.5px solid #000;
     font-weight: 600;
+    
+
 }
 
 .board_list_wrap .paging a.num.on{
@@ -123,6 +163,7 @@ a{
 }
 
 .board_list_wrap .add a{
+
     border: 5px solid rgb(49, 111, 49);
     width: 20px;
     border-radius: 5px;

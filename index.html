@@ -24,55 +24,153 @@
                         <th>성별</th>
                         <th>재학/졸업</th>
                         <th>전공</th>
+                        <th>메뉴</th>
                     </tr>
                 </thead>
                 <tbody>
                     <!--이 부분 나중에 database로 처리하기-->
                     <tr> 
-                        <td>5</td>
-                        <td>명진</td>
-                        <td>여자</td>
-                        <td>재학</td>
-                        <td>전산전자</td>
+                        <td>
+                            <a href="view.html">5</a>
+                        </td>
+                        <td>
+                            <a href="view.html">명진</a>
+                        </td>
+                        <td>
+                            <a href="view.html">여자</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재학</a>
+                        </td>
+                        <td>
+                            <a href="view.html">전산전자</a>
+                        </td>
+                        <td>
+                            <a href="edit.html">
+                                <img class = "edit" src="edit.png" alt=""> 
+                            </a>
+                              
+                            <a href="#">
+                                <img id = "delete" src="delete.png" alt="">
+                            </a>
+                        </td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>지솔</td>
-                        <td>여자</td>
-                        <td>재학</td>
-                        <td>식품영양</td>
+                        <td>
+                            <a href="view.html">4</a>
+                        </td>
+                        <td>
+                            <a href="view.html">지솔</a>
+                        </td>
+                        <td>
+                            <a href="view.html">여자</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재학</a>
+                        </td>
+                        <td>
+                            <a href="view.html">식품영양</a>
+                        </td>
+                        <td>
+                            <a href="edit.html">
+                                <img class = "edit" src="edit.png" alt=""> 
+                            </a>
+                              
+                            <a href="#">
+                                <img id = "delete" src="delete.png" alt="">
+                            </a>
+                        </td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>은서</td>
-                        <td>여자</td>
-                        <td>재학</td>
-                        <td>전자전기</td>
+                        <td>
+                            <a href="view.html">3</a>
+                        </td>
+                        <td>
+                            <a href="view.html">은서</a>
+                        </td>
+                        <td>
+                            <a href="view.html">여자</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재학</a>
+                        </td>
+                        <td>
+                            <a href="view.html">전자전기</a>
+                        </td>
+                        <td>
+                            <a href="edit.html">
+                                <img class = "edit" src="edit.png" alt=""> 
+                            </a>
+                              
+                            <a href="#">
+                                <img id = "delete" src="delete.png" alt="">
+                            </a>
+                        </td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>재림</td>
-                        <td>여자</td>
-                        <td>재학</td>
-                        <td>시스템경영</td>
+                        <td>
+                            <a href="view.html">2</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재림</a>
+                        </td>
+                        <td>
+                            <a href="view.html">여자</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재학</a>
+                        </td>
+                        <td>
+                            <a href="view.html">시스템경영</a>
+                        </td>
+                        <td>
+                            <a href="edit.html">
+                                <img class = "edit" src="edit.png" alt=""> 
+                            </a>
+                              
+                            <a href="#">
+                                <img id = "delete" src="delete.png" alt="">
+                            </a>
+                        </td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>소민</td>
-                        <td>여자</td>
-                        <td>재학</td>
-                        <td>화학</td>
+                        <td>
+                            <a href="view.html">1</a>
+                        </td>
+                        <td>
+                            <a href="view.html">소민</a>
+                        </td>
+                        <td>
+                            <a href="view.html">여자</a>
+                        </td>
+                        <td>
+                            <a href="view.html">재학</a>
+                        </td>
+                        <td>
+                            <a href="view.html">화학</a>
+                        </td>
+                        <td>
+                            <a href="edit.html">
+                                <img class = "edit" src="edit.png" alt=""> 
+                            </a>
+                              
+                            <a href="#">
+                                <img id = "delete" src="delete.png" alt="">
+                            </a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
             <div class="paging">
-                <a href="#" class="left_bt">이전 페이지</a>
+                <a href="#"><img class = "first_bt" src="first.png" alt=""> </a>
+                <a href="#"><img class = "left_bt" src="past.png" alt=""> </a>
                 <a href="#" class="num on">1</a>
                 <a href="#" class="num">2</a>
                 <a href="#" class="num">3</a>
                 <a href="#" class="num">4</a>
                 <a href="#" class="num">5</a>
-                <a href="#" class="right_bt">다음 페이지</a>
+                <a href="#"><img class = "right_bt" src="next.png" alt=""></a>
+                <a href="#"><img class = "last_bt" src="last.png" alt=""></a>
             </div>
 
             <div class="add">
@@ -82,16 +180,17 @@
     </div>
 
     <script>
-        var tdElements = document.querySelectorAll('td'); 
-        var link = document.createElement('a'); 
-        link.href = 'view.html'; 
-        link.textContent = '링크 텍스트'; 
-    
-        for (var i = 0; i < tdElements.length; i++) {
-            tdElements[i].addEventListener('click', function () {
-                window.location.href = link.href;
-            });
+
+        document.getElementById('delete').addEventListener('click', function(e) {
+        e.preventDefault(); 
+        var confirmation = confirm("게시물을 삭제할까요?");
+        if (confirmation) {
+            alert("게시물이 삭제되었습니다.");
+        } else {
+            alert("게시물 삭제를 취소하였습니다.");
         }
+        });
     </script>
+
 </body>
 </html>
