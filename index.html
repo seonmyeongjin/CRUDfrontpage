@@ -66,13 +66,13 @@
                 </tbody>
             </table>
             <div class="paging">
-                <a href="#" class="left_bt">첫 페이지</a>
+                <a href="#" class="left_bt">이전 페이지</a>
                 <a href="#" class="num on">1</a>
                 <a href="#" class="num">2</a>
                 <a href="#" class="num">3</a>
                 <a href="#" class="num">4</a>
                 <a href="#" class="num">5</a>
-                <a href="#" class="right_bt">마지막 페이지</a>
+                <a href="#" class="right_bt">다음 페이지</a>
             </div>
 
             <div class="add">
@@ -82,16 +82,13 @@
     </div>
 
     <script>
-        // JavaScript를 사용하여 각 <td> 요소에 클릭 이벤트 추가
-        var tdElements = document.querySelectorAll('td'); // 모든 <td> 요소 선택
-        var link = document.createElement('a'); // <a> 요소 생성
-        link.href = 'view.html'; // <a> 요소의 href 속성 설정
-        link.textContent = '링크 텍스트'; // <a> 요소의 텍스트 내용 설정
+        var tdElements = document.querySelectorAll('td'); 
+        var link = document.createElement('a'); 
+        link.href = 'view.html'; 
+        link.textContent = '링크 텍스트'; 
     
         for (var i = 0; i < tdElements.length; i++) {
-            // 각 <td> 요소에 클릭 이벤트 추가
             tdElements[i].addEventListener('click', function () {
-                // 클릭 이벤트가 발생했을 때, 링크로 이동
                 window.location.href = link.href;
             });
         }
