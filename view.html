@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 목록</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+<body>
+    <div class="board_wrap">
+        <div class ="board_top">
+            <h1>Student Information</h1>
+            <a href="#" class="topbt">NoStyle</a>
+            <a href="index.html" class="topbt">Home</a>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_view">
+
+            </div>
+            <div class="bt_wrap">
+                <a href="edit.html" class="on">수정</a>
+                <a href="#" id="delete">삭제</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 클릭 이벤트 핸들러
+        document.getElementById('delete').addEventListener('click', function(e) {
+            e.preventDefault(); // 링크의 기본 동작을 막습니다.
+
+            // confirm 창을 띄웁니다.
+            var confirmation = confirm("게시물을 삭제할까요?");
+            
+            // 사용자가 확인 버튼을 클릭하면 true, 취소 버튼을 클릭하면 false가 반환됩니다.
+            if (confirmation) {
+                // 게시물을 삭제하는 로직을 추가하세요.
+                // 예를 들어, 서버로 삭제 요청을 보내거나 화면에서 게시물을 제거하는 등의 작업을 수행합니다.
+                alert("게시물이 삭제되었습니다.");
+            } else {
+                alert("게시물 삭제를 취소하였습니다.");
+            }
+        });
+    </script>
+</body>
+</html>

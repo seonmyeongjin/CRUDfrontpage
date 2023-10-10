@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>게시판 목록</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 </head>
 <body>
-    <p>Hello World!</p>
+    <div class="board_wrap">
+        <div class ="board_top">
+            <h1>Student Information</h1>
+            <a href="#" class="topbt">NoStyle</a>
+            <a href="index.html" class="topbt">Home</a>
+        </div>
+        <div class="board_list_wrap">
+            <table class = "board_list">
+                <caption>게시판 목록</caption>
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>이름</th>
+                        <th>성별</th>
+                        <th>재학/졸업</th>
+                        <th>전공</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--이 부분 나중에 database로 처리하기-->
+                    <tr> 
+                        <td>5</td>
+                        <td>명진</td>
+                        <td>여자</td>
+                        <td>재학</td>
+                        <td>전산전자</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>지솔</td>
+                        <td>여자</td>
+                        <td>재학</td>
+                        <td>식품영양</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>은서</td>
+                        <td>여자</td>
+                        <td>재학</td>
+                        <td>전자전기</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>재림</td>
+                        <td>여자</td>
+                        <td>재학</td>
+                        <td>시스템경영</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>소민</td>
+                        <td>여자</td>
+                        <td>재학</td>
+                        <td>화학</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paging">
+                <a href="#" class="left_bt">첫 페이지</a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="num">2</a>
+                <a href="#" class="num">3</a>
+                <a href="#" class="num">4</a>
+                <a href="#" class="num">5</a>
+                <a href="#" class="right_bt">마지막 페이지</a>
+            </div>
+
+            <div class="add">
+                <a href="add.html">등록</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript를 사용하여 각 <td> 요소에 클릭 이벤트 추가
+        var tdElements = document.querySelectorAll('td'); // 모든 <td> 요소 선택
+        var link = document.createElement('a'); // <a> 요소 생성
+        link.href = 'view.html'; // <a> 요소의 href 속성 설정
+        link.textContent = '링크 텍스트'; // <a> 요소의 텍스트 내용 설정
+    
+        for (var i = 0; i < tdElements.length; i++) {
+            // 각 <td> 요소에 클릭 이벤트 추가
+            tdElements[i].addEventListener('click', function () {
+                // 클릭 이벤트가 발생했을 때, 링크로 이동
+                window.location.href = link.href;
+            });
+        }
+    </script>
 </body>
 </html>

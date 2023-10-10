@@ -1,0 +1,34 @@
+@import url(index.css);
+
+.bt_wrap{
+    position: absolute;
+    bottom:50%;
+    left:45%;
+    text-align: center;
+}
+
+.bt_wrap a{
+    padding: 10px;
+    border: 2px solid rgb(90, 163, 90);
+    border-radius: 4px;
+    font: size 1.4rem;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.bt_wrap a.on{
+    background-color: rgb(90, 163, 90);
+    color:white;
+}
+
+.bt_wrap a.on:hover{
+    background-color: white;
+    color:black;
+}
+
+.bt_wrap a#delete:hover{
+    background-color: rgb(90, 163, 90);
+    color: white
+}
+
+
