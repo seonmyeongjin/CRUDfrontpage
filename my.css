@@ -5,6 +5,6 @@
   }
 
   @media only screen and (min-width: 767px){
-    .board_top {width: 30px;}
-    .board_list_wrap {width: 30px;}
+    .board_top {width: 50%;}
+    .board_list_wrap {width: 50%;}
   }
