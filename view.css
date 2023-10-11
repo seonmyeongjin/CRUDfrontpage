@@ -17,12 +17,12 @@
     min-width: 80px;
 }
 
-.bt_wrap a.on{
+.bt_wrap a.edit{
     background-color: rgb(90, 163, 90);
     color:white;
 }
 
-.bt_wrap a.on:hover{
+.bt_wrap a.edit:hover{
     background-color: white;
     color:black;
 }
