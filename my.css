@@ -2,10 +2,15 @@
 @media only screen and (max-width: 768px) {
     .board_rap{width: 50%;}
     .board_top {width: 50%;}
+    .board_top h1{
+        float: left;
+        padding: 5px;
+    }
     .board_top a{width: 50%;}
     .board_list_wrap {width: 50%;}
-    .board_list{width: 40%;}
-    .board_list_wrap .paging{width:40%;}
+    .board_list{width: 45%;}
+    .board_list_wrap .paging{width:45%;}
+    .board_list_wrap .add{width:45%;}
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
