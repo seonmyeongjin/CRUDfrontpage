@@ -10,6 +10,7 @@
     .bt_wrap{width:100%;}
     .bt_wrap .edit{width: 100%;}
     .bt_wrap #delete{width: 100%;}
+    
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
