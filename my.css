@@ -5,10 +5,15 @@
     .board_list_wrap {width: 100%;}
     .board_list_wrap .paging{width:100%;}
     .board_list_wrap .add{width:100%;}
+    .board_view{width:100%;}
+    .bt_wrap{width:100%;}
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
 @media only screen and (max-width: 1024px) {
+    .board_wrap{width: 100%;}
     .board_top {width: 100%;}
     .board_list_wrap {width: 100%;}
+    .board_list_wrap .paging{width:100%;}
+    .board_list_wrap .add{width:100%;}
 }
