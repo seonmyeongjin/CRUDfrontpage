@@ -1,7 +1,8 @@
 /* 화면 너비가 768px 이하인 경우 */
 @media only screen and (max-width: 768px) {
-    .board_top {width: 10%;}
-    .board_list_wrap {width: 10%;}
+    .board_rap{width: 50%;}
+    .board_top {width: 50%;}
+    .board_list_wrap {width: 50%;}
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
