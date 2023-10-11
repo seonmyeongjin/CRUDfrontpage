@@ -3,6 +3,7 @@
     .board_rap{width: 50%;}
     .board_top {width: 50%;}
     .board_list_wrap {width: 50%;}
+    .board_list{width: 50%;}
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
