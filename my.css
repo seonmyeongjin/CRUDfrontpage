@@ -2,7 +2,7 @@
 @media only screen and (max-width: 768px) {
     .board_wrap{width: 100%;}
     .board_top {width: 100%;}
-    .board_list_wrap {width: 45%;}
+    .board_list_wrap {width: 100%;}
     .board_list_wrap .paging{width:100%;}
     .board_list_wrap .add{width:100%;}
 }
