@@ -1,9 +1,49 @@
 /* 화면 너비가 768px 이하인 경우 */
+/* 작은 모바일 화면에 대한 스타일 */
 @media (max-width: 480px) {
-    .board_rap{width: 50%;}
-    .board_top {width: 50%;}
-    .board_list_wrap {width: 50%;}
-}
+    .board_wrap {
+      width: 100%; /* 화면 너비에 따라 100%로 설정 */
+    }
+  
+    .board_top h1 {
+      font-size: 18px; /* 제목 글꼴 크기 축소 */
+      padding: 10px; /* 패딩 크기 축소 */
+    }
+  
+    .board_top a.topbt {
+      margin: 10px 5px; /* 마진 크기 축소 */
+      font-size: 12px; /* 버튼 글꼴 크기 축소 */
+    }
+  
+    .board_list th,
+    .board_list td {
+      padding: 8px; /* 패딩 크기 축소 */
+      font-size: 12px; /* 테이블 글꼴 크기 축소 */
+    }
+  
+    .board_list_wrap .edit,
+    .board_list_wrap .delete {
+      width: 20px; /* 아이콘 크기 축소 */
+      height: 20px;
+    }
+  
+    .board_list_wrap .paging .num {
+      padding: 3px 8px; /* 숫자 버튼 크기 축소 */
+      font-size: 10px; /* 숫자 글꼴 크기 축소 */
+    }
+  
+    .board_list_wrap .add {
+      margin-top: 20px; /* 추가 버튼과 상단 간격 축소 */
+    }
+  
+    .board_list_wrap .add a {
+      width: 18px; /* 추가 버튼 크기 축소 */
+      margin: 3px;
+      padding: 3px;
+      font-size: 12px; /* 추가 버튼 글꼴 크기 축소 */
+    }
+  }
+  
 
 /* 화면 너비가 1024px 이하인 경우 */
 @media only screen and (max-width: 1024px) {
