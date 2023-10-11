@@ -2,8 +2,10 @@
 @media only screen and (max-width: 768px) {
     .board_rap{width: 50%;}
     .board_top {width: 50%;}
+    .board_top a{width: 50%;}
     .board_list_wrap {width: 50%;}
-    .board_list{width: 50%;}
+    .board_list{width: 40%;}
+    .board_list_wrap .paging{width:40%;}
 }
 
 /* 화면 너비가 1024px 이하인 경우 */
