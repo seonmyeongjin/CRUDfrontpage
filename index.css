@@ -87,7 +87,7 @@ a:hover{
     width : 25px;
     height: 25px;
 }
-.board_list_wrap #delete{
+.board_list_wrap .delete{
     width : 25px;
     height: 25px;
 }
