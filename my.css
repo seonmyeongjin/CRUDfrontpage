@@ -1,2 +1,10 @@
-@import url(css/index.css) (max-width: 767px) and(max-width:768px);
-@import url(css/view.css) (max-width: 767px) and(max-width:768px);
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .board_top {width: 100%;}
+    .board_list_wrap {width: 100%;}
+  }
+
+  @media only screen and (min-width: 767px){
+    .board_top {width: 100%;}
+    .board_list_wrap {width: 100%;}
+  }
