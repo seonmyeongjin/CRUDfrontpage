@@ -1,5 +1,5 @@
 /* 화면 너비가 768px 이하인 경우 */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .board_rap{width: 50%;}
     .board_top {width: 50%;}
     .board_list_wrap {width: 50%;}
