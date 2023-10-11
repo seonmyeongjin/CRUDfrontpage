@@ -1,19 +1,35 @@
 @import url(index.css);
 
 
+.board_view_wrap{
+    padding: 10px;
+}
+
+.board_view{
+    padding:80px;
+    width :100%;
+}
+
+.board_view p{
+    padding: 10px;
+    font-size:14px;
+    text-align: left;
+
+}
+
 .bt_wrap{
-    position: absolute;
-    bottom:20%;
-    left:45%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .bt_wrap a{
-    padding: 10px;
+
     border: 2px solid rgb(90, 163, 90);
+    width: 20px;
     border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
     font: size 1.4rem;
-    display: inline-block;
     min-width: 80px;
 }
 
@@ -31,19 +47,3 @@
     background-color: rgb(90, 163, 90);
     color: white
 }
-
-.board_view{
-    border-top: 1px solid green;
-    border-bottom: 1px solid green;
-    width : 60%;
-    position: absolute;
-    top: 30%;
-    left : 20%;
-    padding: 10px;
-}
-
-.board_view p{
-    margin:10px;
-}
-
-
